@@ -8,8 +8,10 @@ dependencies {
     }
 }
 
-android {
-	dexOptions {
-	    incremental false 
-	}
+configurations.all {
+    resolutionStrategy {
+        force group: 'com.android.support', name: 'support-v4', version: '23.1.0'
+        force group: 'com.android.support', name: 'appcompat-v7', version: '23.1.0'
+        force group: 'com.android.support', name: 'support-annotations', version: '23.1.0'
+    }
 }
