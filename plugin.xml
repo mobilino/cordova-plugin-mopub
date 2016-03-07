@@ -49,7 +49,7 @@
 			  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
           
-        <framework src="com.mopub:mopub-sdk:+@aar" />
+        <framework src="com.mopub:mopub-sdk:4.4.1@aar" />
      </platform>
      
      <!-- ios -->

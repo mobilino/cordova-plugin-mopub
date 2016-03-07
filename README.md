@@ -1,6 +1,6 @@
-# MoPub Plugin Pro #
+# cordova-plugin-mobilino-mopub (Pro) #
 
-Present MoPub Ads in Mobile App/Games natively from JavaScript. 
+Present MoPub Ads in Mobile App/Games natively from JavaScript. Available on npm.
 
 Highlights:
 - [x] Easy-to-use APIs. Display Ad with single line of Js code.
