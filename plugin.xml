@@ -49,7 +49,9 @@
 			  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
           
-        <framework src="com.mopub:mopub-sdk:4.4.1@aar" />
+        <!-- <source-file src="src/android/mopub-sdk.jar" target-dir="libs" /> -->
+        <!-- <framework src="com.mopub:mopub-sdk:4.4.1@aar" /> -->
+        <framework src="mopub.gradle" custom="true" type="gradleReference" />
      </platform>
      
      <!-- ios -->
