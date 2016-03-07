@@ -7,3 +7,7 @@ dependencies {
         transitive = true
     }
 }
+
+dexOptions {
+    incremental false 
+}
