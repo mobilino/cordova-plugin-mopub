@@ -2,16 +2,17 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="com.rjfun.cordova.mopub"
-	version="2.1.2">
+	id="cordova-plugin-mobilino-mopub"
+	version="2.2">
       
-    <name>MoPub</name>
+    <name>MoPub for Cordova</name>
 	<description>Cordova/PhoneGap Plugin for MoPub Ads</description>
 	<author>Liming Xie</author>
+	<author>Christof Lange</author>
 	<license>MIT</license>
-	<keywords>rjfun,ad,mopub</keywords>
-    <repo>https://github.com/floatinghotpot/cordova-plugin-mopub.git</repo>
-    <issue>https://github.com/floatinghotpot/cordova-plugin-mopub/issues</issue>
+	<keywords>ad,mopub</keywords>
+    <repo>https://github.com/mobilino/cordova-plugin-mopub.git</repo>
+    <issue>https://github.com/mobilino/cordova-plugin-mopub/issues</issue>
 
 	<engines>
 	    <engine name="cordova" version=">=3.5" />
@@ -48,7 +49,7 @@
 			  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
           
-        <source-file src="src/android/mopub-sdk.jar" target-dir="libs" />
+        <framework src="com.mopub:mopub-sdk:+" />
      </platform>
      
      <!-- ios -->
