@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-mobilino-mopub",
+  "version": "1.0.1",
+  "description": "Cordova/PhoneGap Plugin for MoPub Ads",
+  "cordova": {
+    "id": "cordova-plugin-mobilino-mopub",
+    "platforms": [
+      "android" 
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobilino/cordova-plugin-mopub"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "ios",
+    "ecosystem:cordova",
+    "cordova-android",
+    "mopub",
+    "Ad"
+  ],
+  "author": "Liming Xie",
+  "contributors": [{"name": "Christof Lange"}],
+  "license": "MIT"
+}
