@@ -8,6 +8,8 @@ dependencies {
     }
 }
 
-dexOptions {
-    incremental false 
+android {
+	dexOptions {
+	    incremental false 
+	}
 }
