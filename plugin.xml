@@ -49,7 +49,7 @@
 			  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
           
-        <source-file src="src/android/httpcore-4.1.jar" target-dir="libs" />
+        <source-file src="src/android/httpcore-4.4.4.jar" target-dir="libs" />
         <source-file src="src/android/mopub-volley-1.1.0.jar" target-dir="libs" />
         <source-file src="src/android/mopub-sdk.jar" target-dir="libs" />
         <!-- <framework src="com.mopub:mopub-sdk:4.4.1@aar" /> -->
