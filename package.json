@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mobilino-mopub",
-  "version": "2.2.24",
+  "version": "2.2.25",
   "description": "Cordova/PhoneGap Plugin for MoPub Ads",
   "cordova": {
     "id": "cordova-plugin-mobilino-mopub",
