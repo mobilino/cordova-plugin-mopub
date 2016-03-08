@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-mobilino-mopub"
-	version="2.2.27">
+	version="2.2.28">
       
     <name>MoPub for Cordova</name>
 	<description>Cordova/PhoneGap Plugin for MoPub Ads</description>
@@ -49,13 +49,14 @@
 			  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
           
-        <!-- <source-file src="src/android/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar" target-dir="libs" />  -->
+        <!-- didnt work <source-file src="src/android/org.apache.http.legacy.jar" target-dir="libs" /> -->
+        <source-file src="src/android/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar" target-dir="libs" /> 
         <source-file src="src/android/mopub-volley-1.1.0.jar" target-dir="libs" />
         <source-file src="src/android/mopub-sdk.jar" target-dir="libs" />
         <!-- <framework src="com.mopub:mopub-sdk:4.4.1@aar" /> -->
         <!-- <framework src="com.android.support:support-v4:23+" /> -->
         <!-- <framework src="com.google.android.gms:play-services-gcm:+" /> -->
-        <!--  <framework src="mopub.gradle" custom="true" type="gradleReference" /> -->
+        <!-- <framework src="mopub.gradle" custom="true" type="gradleReference" /> -->
      </platform>
      
      <!-- ios -->
@@ -83,4 +84,10 @@
         <framework src="Foundation.framework"/>
         <framework src="MediaPlayer.framework"/>
         <framework src="MessageUI.framework"/>
-        <f
+        <framework src="QuartzCore.framework"/>
+        <framework src="StoreKit.framework"/>
+        <framework src="SystemConfiguration.framework"/>
+        <framework src="UIKit.framework"/>
+	</platform>
+
+</plugin>
