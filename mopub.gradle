@@ -8,7 +8,7 @@ repositories {
 
 
 dependencies {
-    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+//    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
 //    compile('com.mopub:mopub-sdk:4.4.1@aar') {
 //        transitive = true
 //    }
