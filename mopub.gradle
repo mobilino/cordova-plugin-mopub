@@ -3,15 +3,9 @@ repositories {
 }
 
 dependencies {
-    compile('com.mopub:mopub-sdk:4.3.0@aar') {
+    compile('com.mopub:mopub-sdk:4.4.1@aar') {
         transitive = true
     }
 }
 
-configurations.all {
-    resolutionStrategy {
-        force group: 'com.android.support', name: 'support-v4', version: '23.1.0'
-        force group: 'com.android.support', name: 'appcompat-v7', version: '23.1.0'
-        force group: 'com.android.support', name: 'support-annotations', version: '23.1.0'
-    }
-}
+
