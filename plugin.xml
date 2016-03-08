@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="cordova-plugin-mobilino-mopub"
-	version="2.2.25">
+	version="2.2.26">
       
     <name>MoPub for Cordova</name>
 	<description>Cordova/PhoneGap Plugin for MoPub Ads</description>
