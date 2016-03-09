@@ -2,9 +2,11 @@ repositories {
     jcenter()
 }
 
-//android {
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
 //       useLibrary 'org.apache.http.legacy'
-//}
+}
 
 dependencies {
     compile('com.mopub:mopub-sdk:4.4.1@aar') {
