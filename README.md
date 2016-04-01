@@ -1,5 +1,7 @@
 # cordova-plugin-mobilino-mopub (Pro) #
 
+This fork is currently not working!
+
 Present MoPub Ads in Mobile App/Games natively from JavaScript. Available on npm.
 
 Highlights:
